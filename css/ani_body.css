@@ -1,0 +1,224 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+.body{
+	width: 100%;
+	height: 8720px;
+	margin: 0 auto;
+	background-color: darkgray;
+	position: relative;	
+}
+.box1{
+	font-family: 'Oswald', sans-serif;
+	padding: 12px 30px;
+	margin-top: -50px;
+	text-align: center;
+    text-decoration: none;
+    color: black;
+	background-color: #FFEC00;
+    border: 0px solid black;
+    font-size: 22px;
+    display: inline-block;
+    border-radius: 25px;
+	box-shadow: 0px 3px 20px 0.5px rgba(0,0,0,0.25);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+ 	overflow: hidden;
+}
+ .box1:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4.5em;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+  }
+.box1:hover {
+	cursor: pointer;
+    background: linear-gradient(to bottom, #ffec00 0, #ffc600 100%);
+    color: #fff;
+    border-bottom: 4px solid darken(rbga(0,0,0,0.5), 10%);
+}
+.box1:hover:before {
+	transform: skewX(-45deg) translateX(350px);
+    transition: all 0.5s ease-in-out;
+}
+.contain1{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	background-image: url("../image/slingshot_hero_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c1_image{
+	width: 700px;
+	height: 485px;
+}
+.c1_image img{
+	width: 680px;
+	padding-top: 50px;
+}
+.contain2{
+	width: 100%;
+	height: 900px;
+	margin: 0 auto;
+	background-color: white;
+}
+.c2_image{
+	width: 600px;
+	height: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+.c2_image img{
+	padding-top: 120px;
+	width: 320px;
+}
+.contain_video_1{
+	width: 1000px;
+	height: 240px;
+}
+
+.contain_video_2{
+	width: 1000px;
+	height: 240px;
+	margin-top: 20px;
+}
+.bg1{
+	width: 100%;
+	height: 400px;
+	background-image: url("../image/makerspace_decoration-1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contain3{
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+.c3_image img{
+	width: 300px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.bg2{
+	width: 100%;
+	height: 400px;
+	background-image: url("../image/piggytales_decoration.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contain4{
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+.c4_image img{
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.bg3{
+	width: 100%;
+	height: 400px;
+	background-image: url("../image/abontherun_decoration.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contain5{
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+.c5_image img{
+	width: 400px;
+	height: 150px;
+	margin-top: 30px;
+}
+.bg4{
+	width: 100%;
+	height: 400px;
+	background-image: url("../image/blues_decoration1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contain6{
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+.c6_image img{
+	height: 150px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.bg5{
+	width: 100%;
+	height: 400px;
+	background-image: url("../image/stella_decoration.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contain7{
+	width: 100%;
+	height: 810px;
+	margin: 0 auto;
+	background-color: white;
+}
+.c7_image img{
+	height: 150px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+.bg6{
+	width: 100%;
+	height: 400px;
+	background-image: url("../image/toons_decoration1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contain8{
+	width: 100%;
+	height: 810px;
+	margin: 0 auto;
+	background-color: white;
+}
+.c8_image img{
+	height: 150px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+.bg7{
+	width: 100%;
+	height: 400px;
+	background-image: url("../image/toons_decoration1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

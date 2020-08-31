@@ -1,0 +1,297 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+.container{
+	width: 100%;
+	height: 3880px;
+	margin: 0 auto;
+	background-color: darkgray;
+	position: relative;
+}
+.contain1{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	background-image: url("../image/BREAMBLAST_201812_1920x700_PreRegBG.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text{
+	width: 350px;
+	height: 500px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 320px;
+}
+.text img{
+	width: 300px;
+}
+.text p{
+	padding-top: 30px;
+	font-size: 20px;
+	color: #db4777;
+}
+.cn_box1{
+	display: block;
+	position: absolute;
+	top: 1200px;
+	left: 750px;
+	transform: translate(-50%, -50%);
+}
+.box1{
+	font-family: 'Oswald', sans-serif;
+	padding: 12px 30px;
+	text-align: center;
+    text-decoration: none;
+    color: black;
+	background-color: #FFEC00;
+    border: 0px solid black;
+    font-size: 22px;
+    display: inline-block;
+    border-radius: 25px;
+	box-shadow: 0px 3px 20px 0.5px rgba(0,0,0,0.25);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+ 	overflow: hidden;
+}
+ .box1:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4.5em;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+  }
+.box1:hover {
+	cursor: pointer;
+    background: linear-gradient(to bottom, #ffec00 0, #ffc600 100%);
+    color: #fff;
+    border-bottom: 4px solid darken(rbga(0,0,0,0.5), 10%);
+}
+.box1:hover:before {
+	transform: skewX(-45deg) translateX(350px);
+    transition: all 0.5s ease-in-out;
+}
+.c1_image{
+	width: 600px;
+	height: 500px;
+	float: right;
+	margin-right: 150px;
+}
+.c1_image img{
+	width: 530px;
+}
+.border{
+	width: 100%;
+	position: absolute;
+	top: 450px;
+}
+.border img{
+	width: 100%;
+}
+.contain2{
+	width: 100%;
+	height: 600px;
+	background-image: url("../image/AB2_Clansbanners_1920x750_BG.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -30px;
+}
+.c2_image{
+	width: 600px;
+	height: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.c2_image img{
+	padding-top: 50px;
+	padding-bottom: -50px;
+	width: 450px;
+}
+.cn_box1{
+	margin-top: -150px;
+}
+.contain3{
+	width: 100%;
+	height: 600px;
+	background-image: url("../image/BG_Bamboo_01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -30px;
+}
+.border1{
+	width: 100%;
+	position: absolute;
+	top: 1040px;
+}
+.border1 img{
+	width: 100%;
+}
+.text1{
+	width: 380px;
+	height: 500px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 320px;
+}
+.text1 h1{
+	font-style: italic;
+	padding-top: 10px;
+	font-size: 30px;
+	color: #ffec00;
+}
+.text1 p{
+	padding-top: 30px;
+	font-size: 20px;
+	color: white;	
+}
+.c3_image{
+	width: 600px;
+	height: 500px;
+	float: right;
+	margin-right: 150px;
+}
+.c3_image img{
+	margin-top: 80px;
+	width: 530px;
+}
+.contain4{
+	width: 100%;
+	height: 600px;
+	background-image: url("../image/AB_Evolution_Keyart_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -30px;
+}
+.border2{
+	width: 100%;
+	position: absolute;
+	top: 1610px;
+}
+.border2 img{
+	width: 100%;
+}
+.c4_image{
+	width: 700px;
+	height: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.c4_image img{
+	width: 500px;
+	margin-top: -50px;
+}
+.cn_box4{
+	margin-top: -180px;
+}
+.contain5{
+	width: 100%;
+	height: 600px;
+	background-image: url("../image/ABMatch_abcom_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -25px;	
+}
+.border3{
+	width: 100%;
+	position: absolute;
+	top: 2180px;
+}
+.border3 img{
+	width: 100%;
+}
+.c5_image{
+	width: 750px;
+	height: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.c5_image img{
+	padding-top: 40px;
+	width: 700px;
+}
+.cn_box5{
+	margin-top: -120px;
+}
+.contain6{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	background-image: url("../image/ab-beach-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.border4{
+	width: 100%;
+	position: absolute;
+	top: 2780px;
+}
+.border4 img{
+	width: 100%;
+}
+.text2{
+	width: 300px;
+	height: 500px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 320px;
+}
+.text2 img{
+	width: 300px;
+}
+.text2 p{
+	padding-top: 30px;
+	font-size: 25px;
+	color: #BB000;
+	font-style: italic;
+	font-weight: bold;
+}
+.box2{
+	width: 150px;
+	height: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	background-color: #ffec00;
+	box-shadow: 0px 3px 20px 0.5px rgba(0,0,0,0.25);
+}
+.box2:hover{
+	background: linear-gradient(to bottom, #ffec00 0, #ffc600 100%);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.c6_image{
+	width: 600px;
+	height: 500px;
+	float: right;
+	margin-right: 150px;
+}
+.c6_image img{
+	width: 565px;
+}
+.contain7{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	background-image: url("../image/AB_Springbottompic_1920x520.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -20px;
+}
+.border5{
+	width: 100%;
+	position: absolute;
+	top: 3360px;
+}
+.border5 img{
+	width: 100%;
+}

@@ -1,0 +1,193 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	text-align: center;
+	padding-top: 80px;
+	position: relative;
+}
+.border6{
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	top: 3971px;
+	background-image: url("../image/footer-mix-top.png");
+	background-position: 50% 100%;
+	background-repeat: repeat-x;
+	z-index: 10;
+}
+.foot-menu{
+	width: 580px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.foot-menu ul{
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.foot-menu ul li{
+	padding: 0 10px;
+	float: left;
+	line-height: 50px;
+}
+.foot-menu ul li a{
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+}
+.foot-menu ul li a:hover{
+	color: black;
+}
+.hover{
+	color: antiquewhite;
+	border: 0px solid #FFFFFF;
+	padding: 0 20px;
+	text-transform: uppercase;
+	position: relative;
+	transition: color 0.2s;
+	z-index: 2;
+}
+.hover:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background: white;
+		transform-origin: 0 0;
+		transform: scaleX(0);
+		transition: transform 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+		z-index: -1;
+}	
+.hover:hover:before{
+		color: black;
+		transform: scaleX(1);
+		border-radius: 10px;
+}
+.foot-icons{
+	width: 320px;
+	height: 100px;
+	margin-top: 10px;
+	position: relative;
+}
+.foot-icons ul{
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	padding: 20px 0;
+}
+.foot-icons ul li{
+	width: 80px;
+	float: left;
+	line-height: 55px;
+}
+.foot-icons ul li a{
+	height: 60px;
+	font-size: 30px;
+	border: 2px black;
+	border-radius: 50px;
+	display: block;
+	color: white;
+	margin: 0 10px;
+}
+.foot-icons ul li a:hover{
+	background-color: white;
+	font-size: 10;
+	transition-duration: 0.2s;
+}
+.fa-facebook-f{
+	width: 50px;
+	height: 40px;
+	padding-top: 10px;
+	position: absolute;
+	left: 15px;
+	top: 26px;	
+	border-radius: 50px;
+	background-color: #3B5998;
+}
+.fa-facebook-f:hover{
+	color: #3B5998;
+	border: none;
+	background-color: white;
+	transition-duration: 0.2s;
+}
+.fa-twitter{
+	width: 50px;
+	height: 40px;
+	padding-top: 10px;
+	position: absolute;
+	left: 95px;
+	top: 26px;	
+	border-radius: 50px;
+	background-color: #00ACED;
+}
+.fa-twitter:hover{
+	color: #00ACED;
+	border: none;
+	background-color: white;
+	transition-duration: 0.2s;
+}
+.fa-youtube{
+	width: 50px;
+	height: 40px;
+	padding-top: 10px;
+	position: absolute;
+	left: 175px;
+	top: 26px;	
+	border-radius: 50px;
+	background-color: #BB0000;
+}
+.fa-youtube:hover{
+	color: #BB0000;
+	border: none;
+	background-color: white;
+	transition-duration: 0.2s;
+}
+.fa-instagram{
+	width: 50px;
+	height: 40px;
+	padding-top: 10px;
+	position: absolute;
+	left: 255px;
+	top: 26px;	
+	border-radius: 50px;
+	background-color: #517FA4;
+}
+.fa-instagram:hover{
+	color: #517FA4;
+	border: none;
+	background-color: white;
+	transition-duration: 0.2s;
+}
+.foot-logo{
+	width: 550px;
+	height: 100px;
+	margin-top: 20px;
+}
+.foot-logo img{
+	height: 40px;
+}
+.foot-logo img:hover{
+	height: 45px;
+	transition-duration: 0.2s;
+}
+.foot-logo p{
+	color: white;
+	line-height: 30px;
+}
+.foot-logo a{
+	text-decoration: none;
+	color: white;
+}
+.foot-logo a:hover{
+	text-decoration: underline;
+}

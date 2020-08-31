@@ -1,0 +1,125 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.box2{
+	width: 190px;
+	height: 240px;
+	float: left;
+	margin-left: 10px;
+}
+.box2 h4{
+	text-align: left;
+}
+.box2 p{
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: left;
+}
+.border1{
+	position: absolute;
+	width: 100%;
+	top: 495px;
+}
+.border1 img{
+	height: 200px;
+	width: 100%;
+}
+.border2{
+	position: absolute;
+	width: 100%;
+	top: 1480px;
+}
+.border2 img{
+	height: 50px;
+	width: 100%;
+}
+.border3{
+	width: 100%;
+	position: absolute;
+	top: 1795px;
+}
+.border3 img{
+	width: 100%;
+}
+.border4{
+	width: 100%;
+	position: absolute;
+	top: 2680px;
+}
+.border4 img{
+	height: 50px;
+	width: 100%;
+}
+.border5{
+	width: 100%;
+	position: absolute;
+	top: 2990px;
+}
+.border5 img{
+	width: 100%;
+}
+.border6{
+	width: 100%;
+	position: absolute;
+	top: 3870px;
+}
+.border6 img{
+	width: 100%;
+}
+.border7{
+	width: 100%;
+	position: absolute;
+	top: 4200px;
+}
+.border7 img{
+	width: 100%;
+}
+.border8{
+	width: 100%;
+	position: absolute;
+	top: 5070px;
+}
+.border8 img{
+	width: 100%;
+}
+.border9{
+	width: 100%;
+	position: absolute;
+	top: 5395px;
+}
+.border9 img{
+	width: 100%;
+}
+.border10{
+	width: 100%;
+	position: absolute;
+	top: 6270px;
+}
+.border10 img{
+	width: 100%;
+}
+.border11{
+	width: 100%;
+	position: absolute;
+	top: 6530px;
+}
+.border11 img{
+	width: 100%;
+}
+.border12{
+	width: 100%;
+	position: absolute;
+	top: 7480px;
+}
+.border12 img{
+	width: 100%;
+}
+.border13{
+	width: 100%;
+	position: absolute;
+	top: 7800px;
+}
+.border13 img{
+	width: 100%;
+}
